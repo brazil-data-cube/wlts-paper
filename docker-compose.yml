@@ -1,0 +1,12 @@
+version: '3.2'
+
+services:
+  wlts-paper-environment:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: wlts-paper-environment:0.1
+    container_name: wlts-paper-environment-container
+    ports:
+      - "8888:8888"
+    restart: on-failure
