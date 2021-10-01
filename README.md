@@ -48,7 +48,7 @@ this RC to aid in the reproducibility of the results:
     Lab](https://jupyterlab.readthedocs.io/en/stable/) that allows
     editing and interactive execution of the generated code;
 -   `docker-compose.yml`: File that facilitates the creation and use of
-    the computing environment provided in the `Dockerfile`;;
+    the computing environment provided in the `Dockerfile`;
 -   `Makefile`: File with shortcuts that allow you to perform the tasks
     required to reproduce this work easily. The following operations are
     available in this file:

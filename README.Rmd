@@ -35,7 +35,7 @@ This repository is a `Research Compendium` (RC), with all the materials (Codes, 
 In addition to these directories, a few other files have been added to this RC to aid in the reproducibility of the results:
 
 - `Dockerfile`: File with all the instructions needed to build the environment used to execute the scripts provided in this RC. The environment specified in this file has a [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/) that allows editing and interactive execution of the generated code;
-- `docker-compose.yml`: File that facilitates the creation and use of the computing environment provided in the `Dockerfile`;;
+- `docker-compose.yml`: File that facilitates the creation and use of the computing environment provided in the `Dockerfile`;
 - `Makefile`: File with shortcuts that allow you to perform the tasks required to reproduce this work easily. The following operations are available in this file:
   - `compose-build`: Command to build the Docker Image of the environment needed to run the code;
   - `compose-up`: Command to start the computational environment for code execution;
