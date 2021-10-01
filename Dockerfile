@@ -40,4 +40,4 @@ RUN pip3 install git+https://github.com/brazil-data-cube/lccs.py@v0.8.0 \
 #
 RUN Rscript -e "devtools::install_github('brazil-data-cube/rwlts@v0.6.0')" \
   && conda install -c conda-forge r-sf r-geojsonio --yes \
-  && Rscript -e "install.packages(c('cowplot', 'ggrepel', 'ggfittext', 'ggpubr', 'leaflet')"
+  && Rscript -e "install.packages(c('cowplot', 'ggrepel', 'ggfittext', 'ggpubr', 'leaflet'), repos='http://cran.us.r-project.org')"
