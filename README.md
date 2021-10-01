@@ -2,6 +2,7 @@
 # A plataform for land use and land cover data integration and trajectory analysis
 
 [![rc](https://img.shields.io/badge/research%20compendium-ready-brightgreen)](#)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/M3nin0/wlts-compendium/HEAD)
 
 This repository is a `Research Compendium` (RC), with all the materials
 (Codes, data, and computational environment) necessary for the
