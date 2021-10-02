@@ -14,7 +14,8 @@ RUN apt-get update -y \
 COPY . wlts-article
 
 RUN cd wlts-article \
-   && conda env update --file environment.yml --prune
+   && conda env update --file environment.yml --prune \
+   && Rscript -e "devtools::install_github('brazil-data-cube/rwlts@v0.6.0')"
 
 #
 # 3. Changing the user

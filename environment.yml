@@ -1,5 +1,6 @@
 name: base
 channels:
+  - sepandhaghighi
   - conda-forge
   - defaults
 dependencies:
@@ -7,6 +8,7 @@ dependencies:
   - _openmp_mutex=4.5
   - _r-mutex=1.0.1
   - alsa-lib=1.2.3
+  - art=5.3
   - attrs=21.2.0
   - binutils_impl_linux-64=2.36.1
   - binutils_linux-64=2.36
@@ -14,7 +16,7 @@ dependencies:
   - bwidget=1.9.14
   - bzip2=1.0.8
   - c-ares=1.17.2
-  - ca-certificates=2021.5.30
+  - ca-certificates=2021.7.5
   - cairo=1.16.0
   - certifi=2021.5.30
   - cfitsio=3.470
@@ -146,6 +148,7 @@ dependencies:
   - postgresql=13.3
   - proj=8.1.0
   - pthread-stubs=0.4
+  - pycm=3.2
   - pyparsing=2.4.7
   - pyproj=3.2.1
   - pyqt=5.12.3
@@ -209,6 +212,8 @@ dependencies:
   - r-fs=1.5.0
   - r-generics=0.1.0
   - r-gert=1.4.1
+  - r-ggalluvial=0.12.3
+  - r-ggfittext=0.9.1
   - r-ggplot2=3.3.5
   - r-ggpubr=0.4.0
   - r-ggrepel=0.9.1
@@ -305,6 +310,7 @@ dependencies:
   - r-scales=1.1.1
   - r-sessioninfo=1.1.1
   - r-sf=1.0_2
+  - r-shades=1.4.0
   - r-sp=1.4_5
   - r-sparsem=1.81
   - r-statmod=1.4.36
