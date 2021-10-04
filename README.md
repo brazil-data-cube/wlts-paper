@@ -48,13 +48,11 @@ The **analysis** directory contains:
         Directory with the shapefile from the regularly spaced grid of
         1x1 km used in the workflow analysis;
 
-    -   [:file:
-        analysis/data/terraclass\_amazonia\_v2\_color-palette.yml](analysis/data/terraclass_amazonia_v2_color-palette.yml):
+    -   [analysis/data/terraclass\_amazonia\_v2\_color-palette.yml](analysis/data/terraclass_amazonia_v2_color-palette.yml):
         File with the definition of the color palette used in the Sankey
         Plot of the TerraClass data collection;
 
-    -   [:file:
-        analysis/data/workflow\_parameters.yml](analysis/data/workflow_parameters.yml):
+    -   [analysis/data/workflow\_parameters.yml](analysis/data/workflow_parameters.yml):
         Workflow configuration file. This file should be used when the
         full run is done with the `Makefile`.
 
