@@ -40,21 +40,30 @@ The **analysis** directory contains:
         MapBiomas (V5) collections.
 
 -   [:file\_folder: analysis/data/](analysis/data): Directory where the
-    input and output (after the *workflow* run) data is stored. It has
-    the following elements:
+    input and output data is stored. It has the following
+    subdirectories:
 
     -   [:file\_folder:
-        analysis/data/study-area\_sao-felix-do-xingu/](analysis/data/study-area_sao-felix-do-xingu/):
-        Directory with the shapefile from the regularly spaced grid of
-        1x1 km used in the workflow analysis;
+        analysis/data/raw\_data/](analysis/data/raw_data/raw_data):
+        Directory with the input data. It has the following elements:
 
-    -   [analysis/data/terraclass\_amazonia\_v2\_color-palette.yml](analysis/data/terraclass_amazonia_v2_color-palette.yml):
-        File with the definition of the color palette used in the Sankey
-        Plot of the TerraClass data collection;
+        -   [:file\_folder:
+            analysis/data/raw\_data/study-area\_sao-felix-do-xingu/](analysis/data/raw_data/study-area_sao-felix-do-xingu/):
+            Directory with the shapefile from the regularly spaced grid
+            of 1x1 km used in the workflow analysis;
 
-    -   [analysis/data/workflow\_parameters.yml](analysis/data/workflow_parameters.yml):
-        Workflow configuration file. This file should be used when the
-        full run is done with the `Makefile`.
+        -   [analysis/data/raw\_data/terraclass\_amazonia\_v2\_color-palette.yml](analysis/data/raw_data/terraclass_amazonia_v2_color-palette.yml):
+            File with the definition of the color palette used in the
+            Sankey Plot of the TerraClass data collection;
+
+        -   [analysis/data/raw\_data/workflow\_parameters.yml](analysis/data/raw_data/workflow_parameters.yml):
+            Workflow configuration file. This file should be used when
+            the full run is done with the `Makefile`.
+
+    -   [:file\_folder:
+        analysis/data/derived\_data/](analysis/data/raw_data/raw_data):
+        Directory with the output data. Content is added as the workflow
+        runs.
 
 In addition to these directories, the following files are available in
 the root of this RC (Separated by type):
