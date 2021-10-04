@@ -44,8 +44,8 @@ The **analysis** directory contains:
     subdirectories:
 
     -   [:file\_folder:
-        analysis/data/raw\_data/](analysis/data/raw_data/raw_data):
-        Directory with the input data. It has the following elements:
+        analysis/data/raw\_data/](analysis/data/raw_data/): Directory
+        with the input data. It has the following elements:
 
         -   [:file\_folder:
             analysis/data/raw\_data/study-area\_sao-felix-do-xingu/](analysis/data/raw_data/study-area_sao-felix-do-xingu/):
@@ -61,7 +61,7 @@ The **analysis** directory contains:
             the full run is done with the `Makefile`.
 
     -   [:file\_folder:
-        analysis/data/derived\_data/](analysis/data/raw_data/raw_data):
+        analysis/data/derived\_data/](analysis/data/derived_data):
         Directory with the output data. Content is added as the workflow
         runs.
 
