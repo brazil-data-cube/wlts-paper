@@ -1,0 +1,12 @@
+terraclass_amazonia-v2:
+    "Corpo D'água"                           : "#0600f9"
+    "Deforestation of the Year"              : "#ff001e"
+    "Mineração"                              : "#af88cb"
+    "Não Floresta"                           : "#ff00fb"
+    "Não Observado"                          : "#ffffff"
+    "Outros"                                 : "#e1e1e1"
+    "Shrub Cultivated Pasture"               : "#e9a055"
+    "Herbaceous Cultivated Pasture"          : "#ffed8f"
+    "Urbanizada"                             : "#ffa7c0"
+    "Primary Forest"                         : "#105400"
+    "Secondary Forest"                       : "#00c92d"
