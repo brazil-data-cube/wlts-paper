@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: wlts-paper-environment:0.1
+    image: brazildatacube/wlts-paper-environment:0.1-local
     container_name: wlts-paper-environment-container
     ports:
       - "8888:8888"

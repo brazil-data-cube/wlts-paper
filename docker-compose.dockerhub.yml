@@ -1,0 +1,11 @@
+version: '3.2'
+
+services:
+  wlts-paper-environment:
+    image: brazildatacube/wlts-paper-environment:0.1
+    container_name: wlts-paper-environment-container
+    ports:
+      - "8888:8888"
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    restart: on-failure
