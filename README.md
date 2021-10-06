@@ -3,6 +3,8 @@
 
 [![rc](https://img.shields.io/badge/research%20compendium-ready-brightgreen)](#)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/brazil-data-cube/wlts-paper/HEAD)
+[![Docker
+Pulls](https://img.shields.io/docker/pulls/brazildatacube/wlts-paper-environment)](https://hub.docker.com/r/brazildatacube/wlts-paper-environment)
 
 This repository is a `Research Compendium` (RC), with all the materials
 (codes, data, and computational environment) required for the
@@ -365,12 +367,13 @@ clone the repository:
 ``` sh
 git clone https://github.com/brazil-data-cube/wlts-paper
 
-#> remote: Enumerating objects: 159, done.
-#> remote: Counting objects: 100% (159/159), done.
-#> remote: Compressing objects: 100% (110/110), done.
-#> remote: Total 159 (delta 61), reused 136 (delta 40), pack-reused 0
-#> Receiving objects: 100% (159/159), 1.55 MiB | 10.57 MiB/s, done.
-#> Resolving deltas: 100% (61/61), done.
+#> Cloning into 'wlts-paper'...
+#> remote: Enumerating objects: 263, done.
+#> remote: Counting objects: 100% (263/263), done.
+#> remote: Compressing objects: 100% (186/186), done.
+#> remote: Total 263 (delta 94), reused 235 (delta 68), pack-reused 0
+#> Receiving objects: 100% (263/263), 14.32 MiB | 14.56 MiB/s, done.
+#> Resolving deltas: 100% (94/94), done.
 ```
 
 After the clone, in the directory you are in, there should be a
@@ -379,7 +382,7 @@ directory named `wlts-paper`:
 ``` sh
 ls -l
 
-#> drwxrwxr-x 6 felipe felipe    4096 out  4 17:46 wlts-paper
+#> drwxrwxr-x 5 felipe felipe 4096 out  6 16:15 wlts-paper
 ```
 
 Access this directory and view its contents:
@@ -388,16 +391,16 @@ Access this directory and view its contents:
 cd wlts-paper
 
 ls -l
-#> drwxrwxr-x 5 felipe felipe  4096 out  3 17:00 analysis
-#> -rw-rw-r-- 1 felipe felipe   272 out  4 11:09 docker-compose.dockerhub.yml
-#> -rw-rw-r-- 1 felipe felipe   303 out  4 11:09 docker-compose.local.yml
-#> -rw-rw-r-- 1 felipe felipe   739 out  4 13:57 Dockerfile
-#> -rw-rw-r-- 1 felipe felipe 10895 out  4 09:46 environment.yml
-#> drwxrwxr-x 4 felipe felipe  4096 out  4 14:30 figures
-#> -rw-rw-r-- 1 felipe felipe  3771 out  4 11:10 Makefile
-#> -rw-rw-r-- 1 felipe felipe 22614 out  4 17:52 README.md
-#> -rw-rw-r-- 1 felipe felipe 23496 out  4 17:53 README.Rmd
-#> -rw-rw-r-- 1 felipe felipe   226 out  4 10:47 wlts-paper.Rproj
+#> drwxrwxr-x 4 felipe felipe  4096 out  6 16:15 analysis
+#> -rw-rw-r-- 1 felipe felipe   261 out  6 16:15 docker-compose.dockerhub.yml
+#> -rw-rw-r-- 1 felipe felipe   324 out  6 16:15 docker-compose.local.yml
+#> -rw-rw-r-- 1 felipe felipe   735 out  6 16:15 Dockerfile
+#> -rw-rw-r-- 1 felipe felipe 10895 out  6 16:15 environment.yml
+#> drwxrwxr-x 4 felipe felipe  4096 out  6 16:15 figures
+#> -rw-rw-r-- 1 felipe felipe  3821 out  6 16:15 Makefile
+#> -rw-rw-r-- 1 felipe felipe 46436 out  6 16:15 README.md
+#> -rw-rw-r-- 1 felipe felipe 47304 out  6 16:15 README.Rmd
+#> -rw-rw-r-- 1 felipe felipe   226 out  6 16:15 wlts-paper.Rproj
 ```
 
 In the `wlts-paper` directory, notice the `docker-compose.dockerhub.yml`
@@ -476,12 +479,13 @@ machine, use `git` and clone the repository:
 ``` sh
 git clone https://github.com/brazil-data-cube/wlts-paper
 
-#> remote: Enumerating objects: 159, done.
-#> remote: Counting objects: 100% (159/159), done.
-#> remote: Compressing objects: 100% (110/110), done.
-#> remote: Total 159 (delta 61), reused 136 (delta 40), pack-reused 0
-#> Receiving objects: 100% (159/159), 1.55 MiB | 10.57 MiB/s, done.
-#> Resolving deltas: 100% (61/61), done.
+#> Cloning into 'wlts-paper'...
+#> remote: Enumerating objects: 263, done.
+#> remote: Counting objects: 100% (263/263), done.
+#> remote: Compressing objects: 100% (186/186), done.
+#> remote: Total 263 (delta 94), reused 235 (delta 68), pack-reused 0
+#> Receiving objects: 100% (263/263), 14.32 MiB | 14.56 MiB/s, done.
+#> Resolving deltas: 100% (94/94), done.
 ```
 
 After the clone, in the directory you are in, there should be a
@@ -490,7 +494,7 @@ directory named `wlts-paper`:
 ``` sh
 ls -l
 
-#> drwxrwxr-x 6 felipe felipe    4096 out  4 17:46 wlts-paper
+#> drwxrwxr-x 5 felipe felipe 4096 out  6 16:15 wlts-paper
 ```
 
 Access this directory and view its contents:
@@ -499,16 +503,16 @@ Access this directory and view its contents:
 cd wlts-paper
 
 ls -l
-#> drwxrwxr-x 5 felipe felipe  4096 out  3 17:00 analysis
-#> -rw-rw-r-- 1 felipe felipe   272 out  4 11:09 docker-compose.dockerhub.yml
-#> -rw-rw-r-- 1 felipe felipe   303 out  4 11:09 docker-compose.local.yml
-#> -rw-rw-r-- 1 felipe felipe   739 out  4 13:57 Dockerfile
-#> -rw-rw-r-- 1 felipe felipe 10895 out  4 09:46 environment.yml
-#> drwxrwxr-x 4 felipe felipe  4096 out  4 14:30 figures
-#> -rw-rw-r-- 1 felipe felipe  3771 out  4 11:10 Makefile
-#> -rw-rw-r-- 1 felipe felipe 22614 out  4 17:52 README.md
-#> -rw-rw-r-- 1 felipe felipe 23496 out  4 17:53 README.Rmd
-#> -rw-rw-r-- 1 felipe felipe   226 out  4 10:47 wlts-paper.Rproj
+#> drwxrwxr-x 4 felipe felipe  4096 out  6 16:15 analysis
+#> -rw-rw-r-- 1 felipe felipe   261 out  6 16:15 docker-compose.dockerhub.yml
+#> -rw-rw-r-- 1 felipe felipe   324 out  6 16:15 docker-compose.local.yml
+#> -rw-rw-r-- 1 felipe felipe   735 out  6 16:15 Dockerfile
+#> -rw-rw-r-- 1 felipe felipe 10895 out  6 16:15 environment.yml
+#> drwxrwxr-x 4 felipe felipe  4096 out  6 16:15 figures
+#> -rw-rw-r-- 1 felipe felipe  3821 out  6 16:15 Makefile
+#> -rw-rw-r-- 1 felipe felipe 46436 out  6 16:15 README.md
+#> -rw-rw-r-- 1 felipe felipe 47304 out  6 16:15 README.Rmd
+#> -rw-rw-r-- 1 felipe felipe   226 out  6 16:15 wlts-paper.Rproj
 ```
 
 In the `wlts-paper` directory, notice the `docker-compose.local.yml`
@@ -529,7 +533,7 @@ this image should appear, as shown below:
 docker image ls
 
 #> REPOSITORY                                TAG          IMAGE ID           CREATED         SIZE
-#> brazildatacube/wlts-paper-environment  0.1-local     dd1aa5640e41   About a minute ago   5.05GB
+#> brazildatacube/wlts-paper-environment  0.1-local     ca5b517e098a   About a minute ago   5.09GB
 ```
 
 You can then start [Docker
@@ -930,9 +934,9 @@ listing this directory, the following content should be presented:
 ls -l analysis/data/derived_data/base-operations
 
 #> total 12
-#> -rw-r--r-- 1 jovyan users 1536 Oct  5 05:17 listing1_python.csv
-#> -rw-r--r-- 1 jovyan users 1866 Oct  5 05:18 listing1_r.csv
-#> -rw-r--r-- 1 jovyan users  639 Oct  5 05:18 listing3_python.csv
+#> -rw-r--r-- 1 root root 1536 Oct  6 15:28 listing1_python.csv
+#> -rw-r--r-- 1 root root 1866 Oct  6 15:28 listing1_r.csv
+#> -rw-r--r-- 1 root root  639 Oct  6 15:28 listing3_python.csv
 ```
 
 Note also that the outputs from each cell in the notebooks are persisted
@@ -1040,8 +1044,8 @@ listing this directory, the following content should be presented:
 ls -l analysis/data/derived_data/alluvial-plot
 
 #> total 1432
-#> -rw-r--r-- 1 jovyan users 1384790 Oct  5 07:00 plot_alluvial_terraclass_amz.png
-#> -rw-r--r-- 1 jovyan users   74375 Oct  5 06:59 sao-felix-do-xingu_trajectories.rds
+#> -rw-r--r-- 1 root root 1384790 Oct  6 17:32 plot_alluvial_terraclass_amz.png
+#> -rw-r--r-- 1 root root   74375 Oct  6 17:30 sao-felix-do-xingu_trajectories.rds
 ```
 
 Note also that the outputs from each cell in the notebooks are persisted
@@ -1149,9 +1153,11 @@ presented:
 ``` sh
 ls -l analysis/data/derived_data/lulc-trajectory-comparison
 
-#> total 1968
-#> -rw-r--r-- 1 jovyan users  293100 Oct  5 20:17 harmonized-trajectories_download_2021-10-05_09-56-06_368799.log
-#> -rw-r--r-- 1 jovyan users 1708931 Oct  5 20:17 harmonized-trajectories_mapbiomas-terraclass_2014.json
+#> total 2100
+#> -rw-r--r-- 1 root root  311930 Oct  6 19:29 harmonized-trajectories_download_2021-10-06_15-28-17_825991.log
+#> -rw-r--r-- 1 root root 1818889 Oct  6 19:29 harmonized-trajectories_mapbiomas-terraclass_2014.json
+#> -rw-r--r-- 1 root root    3502 Oct  6 19:29 trajectory-concordance_tc-mb-2014.csv
+#> -rw-r--r-- 1 root root     176 Oct  6 19:29 trajectory-concordance_tc-mb-2014_matrix.csv
 ```
 
 Note also that the outputs from each cell in the notebooks are persisted
